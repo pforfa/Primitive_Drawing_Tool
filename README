@@ -1,0 +1,26 @@
+**Specification:
+
+    The following program a primitive drawing tool. It's purpose it to display shapes and colors using characters. The user specifies an input file with specific commands, the program parses the text file looking for those specific commands and outputs everything into another file.
+
+**Installation:
+    The program is already packaged in a .jar file and requires no further installation.
+
+**Execution:
+    In order to run the program the JVM (Java Virtual Machine) must be installed on the operating system. This version of the program has been tested on JKD 8.
+    In order to run the program, open a terminal or command prompt window and type the following command:
+
+    'java -jar Drawing_Tool input.txt'
+
+    **NOTE - omit ''. The following .zip files included 4 input files.
+        You may enter multiple arguments such as. In order to run the program with multiple input files use the follow command: 'java -jar Drawing_Tool input.txt input1.txt'
+        
+    **Output - in order to view the drawing, look inside the folder in which the program was executed in. There should an 'output.txt' or multiple 'output#.txt' files depending on how many input files were given at program execution.
+    
+**Bugs
+    Currently this is a very early version of the program. The current files provided have been the only test cases used. A majority of errors are caught such as IndexOutOfBounds errors, and no canvas instantiation.
+    More testing will be done in the future. Send any bug reports to pawel.forfa@gmail.com
+    
+**Additional Notes
+
+    Source files are included with the .zip file in the 'source' folder.
+    
